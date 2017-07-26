@@ -1,0 +1,7 @@
+to unhidden Library folder on Users/Library is:
+
+sudo chflags nohidden /Library/ ~/Library/
+
+to hide again:
+
+sudo chflags hidden /Library/ ~/Library/
