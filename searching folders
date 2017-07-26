@@ -1,0 +1,3 @@
+to search a folder called 'chaindata'
+
+find ~ -type d -name 'chaindata'
