@@ -1,0 +1,9 @@
+In order to create a spacer in the dock
+
+defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
+  
+Then:
+
+killall Dock
+
+And you are done.
