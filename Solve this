@@ -1,0 +1,8 @@
+Creare master and slaves/zombie avviando lo script in background all'avvio.
+Occorre creare quindi un daemon. 
+
+[come si fa?]
+
+Questo script da terminale che lancia il miner è archiviato sul server di uno dei miei siti su register e va richiamato dal server di register di modo che non possa venir cancellato se non formattando. 
+
+Il tutto oltre che su Mac deve essere fatto anche su Windows. 
