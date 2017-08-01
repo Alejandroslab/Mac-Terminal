@@ -1,0 +1,9 @@
+while true; do <your command>; sleep <interval_in_seconds>; done
+
+Example
+
+while true; do echo ciao; sleep 5; done
+
+This command will print output words 'ciao' every 5 seconds
+
+to stop the loop just press 'Ctrl+c'
