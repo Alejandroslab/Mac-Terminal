@@ -1,0 +1,14 @@
+Checking SHA1 Hash in Mac OS X
+
+Use command shasum
+
+shasum ~/Desktop/DownloadedFile.dmg
+
+An easy way to check SHA1 files buried deep in the file system without typing out the full path, is to type the first part of the command 
+then drag and drop the file into the Terminal window. This automatically types the path for you:
+
+shasum (drag and drop file here)
+
+The default for the shasum command is to use SHA1, the most common hash type, but this can be changed with the -a flag if necessary 
+to 224, 256, 384, or 512. Also, though SHA1 is becoming more common than MD5, you can still easily check md5 hash in Mac OS X as well with the md5 command.
+
