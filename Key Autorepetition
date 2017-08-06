@@ -1,8 +1,0 @@
-per attivare la ripetizione dei tasti tipo aaaaaaaaa
-(riavviare)
-
-— defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
-
-per disattivare la ripetizione dei tasti tipo aaaaa 
-
-— defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool true
