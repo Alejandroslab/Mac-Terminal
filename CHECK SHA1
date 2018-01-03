@@ -12,3 +12,8 @@ shasum (drag and drop file here)
 The default for the shasum command is to use SHA1, the most common hash type, but this can be changed with the -a flag if necessary 
 to 224, 256, 384, or 512. Also, though SHA1 is becoming more common than MD5, you can still easily check md5 hash in Mac OS X as well with the md5 command.
 
+
+You can use also:
+
+
+openssl sha -sha256  (name of file. drag your file here)
