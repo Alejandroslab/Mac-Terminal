@@ -1,0 +1,19 @@
+Shutdown the VM and quit VirtualBox
+
+Open the Terminal app and use the following command to navigate to the VirtualBox app directory:
+
+cd /Applications/VirtualBox.app/Contents/Resources/VirtualBoxVM.app/Contents/MacOS/
+
+Now in the proper directory, you’re ready to run the resize command with the following syntax:
+
+VBoxManage modifyhd --resize [new size in MB] [/path/to/vdi]
+
+For example, let’s say there’s a Windows 10 VM VDI file located at /Users/Paul/Documents/VM/Windows10.vdi 
+and we want it to grow from 15GB to 30GB, the syntax would be:
+
+VBoxManage modifyhd --resize 30000 ~/Documents/VM/Windows10.vdi (or just drag the file in terminal)
+
+If desired, verify the change has taken place with the showhdinfo command:
+VBoxManage showhdinfo ~/path/to/vmdrive.vdi
+
+Relaunch VirtualBox and boot your newly resized guest OS
