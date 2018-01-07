@@ -1,0 +1,17 @@
+First download GnuPG
+
+Second import the public key of the author with
+
+gpg --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290
+
+where 0x4E2C6E8793298290 is the public key of the author.
+
+After that if you don't have .asc file just create one coping and pasting the signature of the file you want to verify on a text editor
+Then save the file as .asc (not .txt)
+Remember to copy also the name of the file you want to verify and rename the .asc file with that.
+
+Then for verification just:
+
+gpg --verify (drag .asc file ) (drag .dmg file or other file to verify)
+
+
