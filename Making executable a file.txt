@@ -9,7 +9,7 @@ Finally open terminal and type
 
 chmod +x (and drag the .in file created)
 
-After press enter the file is executable.
+After pressing enter the file is executable.
 
 
 
