@@ -1,0 +1,21 @@
+If you have problems formatting with disk utility use the following:
+
+first to get the name to the disk you're trying to format 
+
+diskutil list
+
+remember to change 'disk2' with the correct disk to format.
+
+then unomunt the disk
+
+diskutil unmountDisk force disk2
+
+then write zeros on the boot sector:
+
+sudo dd if=/dev/zero of=/dev/disk2 bs=1024 count=1024
+
+finally format it with:
+
+diskutil partitionDisk disk2 GPT JHFS+ "My External HD" 0g
+
+done.
