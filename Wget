@@ -2,3 +2,12 @@ To download entire website first install wget (contained in brew)
 
 brew install wget
 
+Download all the website with mozilla as user agent at max speed of 35k
+
+wget -r -p -U Mozilla --wait=10 --limit-rate=35K www.website.com
+
+Downloads only pdf from a website. It removes everything else
+wget -A pdf -m -p -E -k -K -np www.website.com
+
+Downloads only pdf from a website with mozilla as user agent at max speed of 35k (https)
+wget -A pdf -m -p -E -k -K -np -r -p -U Mozilla --wait=10 --limit-rate=35K --no-check-certificate www.website.com
