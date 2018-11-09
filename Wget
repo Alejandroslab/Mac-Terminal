@@ -1,0 +1,4 @@
+To download entire website first install wget (contained in brew)
+
+brew install wget
+
