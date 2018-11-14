@@ -55,9 +55,9 @@ git remote add origin https://github.com/User/Repository.git
 
 
 
+with this you force it (be careful)
 
-
-
+git push -f origin master
 
 
 
