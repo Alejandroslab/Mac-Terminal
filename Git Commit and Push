@@ -38,7 +38,7 @@ remember that the message is mandatory
 
 now we are ready to push (upload) this file in the repository
 
-5)git origin master
+5)git push origin master
 
 ___________
 
