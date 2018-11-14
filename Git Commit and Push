@@ -1,0 +1,59 @@
+How to use git quickly to commit and push
+
+1)first clone the repository copying the web url you find in clone button in the repository
+then
+
+git clone https://github.com/User/Repository.git
+
+it will clone the repository as a folder in the Home folder
+
+2)then configure your name and username in order to be recognizable with this
+
+git config --global user.name "My name"
+
+git config --global user.email "My email"
+
+after that with 
+git status 
+we can see that we are in our branch master
+
+For example we want to commit and push a file
+we can create a .txt file in the home folder
+touch file.txt
+
+Now we want to commit and push this file
+
+3)first we should 'add' this file that is untracked. therefore
+
+git add file.txt
+
+with git status 
+we can see difference
+
+we are ready now to commit
+
+4)git commit -m "Post here your message"
+
+remember that the message is mandatory
+
+now we are ready to push (upload) this file in the repository
+
+5)git origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
