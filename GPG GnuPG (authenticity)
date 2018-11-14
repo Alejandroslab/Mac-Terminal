@@ -20,8 +20,8 @@ Remember to copy also the name of the file you want to verify and rename the .as
 
 Then for verification just:
 
-gpg --verify (drag .asc file or drag .sig file if you have it) (drag .dmg file to be verified or other file to be verified)
+gpg --verify (drag .asc file or drag .sig file if you have it(file provided by the authors)) (drag .dmg file to be verified or other file like .iso to be verified)
 
-or (see linux mint authenticity verification) 
+or in case of linux mint
 
-gpg --verify sha256sum.txt.gpg sha256sum.txt
+gpg --verify sha256sum.txt.gpg(file provided by authors) sha256sum.txt (file to be verified) (just drag and drop)
