@@ -1,5 +1,8 @@
 How to use git quickly to commit and push
 
+#The thing that is annoying is that you have to put you credentials everytime with https so it will be better to set up ssh key but it's a mess
+So whenever I will have time I will try to do that.
+
 1)first clone the repository copying the web url you find in clone button in the repository
 then
 
