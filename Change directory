@@ -1,0 +1,9 @@
+in order to change directory just use 
+cd /user/alpha
+
+for example if i want to enter in a directory contained in folder alpha called beta
+
+cd /user/alpha/beta
+
+and then i'm in beta folder inside alpha
+
