@@ -7,7 +7,7 @@ git clone https://github.com/User/Repository.git
 
 it will clone the repository as a folder in the Home folder
 
-2)then configure your name and username in order to be recognizable with this
+2)then configure your name and username (check it out) in order to be recognizable with this
 
 git config --global user.name "My name"
 
@@ -40,9 +40,18 @@ now we are ready to push (upload) this file in the repository
 
 5)git origin master
 
+___________
 
+if you get an error like
 
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
 
+Please make sure you have the correct access rights
+and the repository exists.
+
+just add this>
+git remote add origin https://github.com/User/Repository.git
 
 
 
