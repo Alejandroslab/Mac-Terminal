@@ -1,0 +1,5 @@
+to turn it off
+sudo ifconfig en0 down
+
+to turn it on
+sudo ifconfig en0 up
