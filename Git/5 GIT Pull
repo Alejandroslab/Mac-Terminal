@@ -1,0 +1,5 @@
+git pull is similar to git fetch but is more like
+
+git pull = git fetch + git merge
+
+so git pull will sync remote changes with your local repository but even with your working copy 
