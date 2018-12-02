@@ -1,0 +1,17 @@
+So this is the part in which from 'staging' we pass the files to the local repository
+
+just typing:
+
+git commit -m "Insert a message here"
+
+Inside the ".." you should put a meaningful message in order to understand the changes.
+
+finally if you run
+
+git status 
+
+you will see a message like
+
+'Your branch is ahead of 'origin/master' by 1 commit'
+
+where 1 commit could be more than one as it depends on the number of changes that we have previously added with git add.
