@@ -1,0 +1,27 @@
+there is also 
+
+get add .
+
+with this you will track (or 'stage') only all the files that are present in the folder that you are working on 
+
+So if you for example are in a subfolder of your main working/local repository folder
+the files that will be tracked are only all the files contained in the subfolder and not the changes outside of that subfolder.
+
+
+and then 
+
+get add *
+
+with this command only the modification and added files will be staged but NOT the deleted ones.
+
+and if you go in a subfolder will be the same: all the files of the subfolder that are new or modified will be staged (not deleted files)
+
+and everything that is outside of the subfolder will not be taken in consideration
+
+
+we can use this commands even for single extensions as for example:
+
+git add *.txt
+
+will stage the same files as previously explained but with the constraint that this time will be taken in account only
+.txt files.
