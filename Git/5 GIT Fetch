@@ -1,0 +1,5 @@
+To sync the remote repository with the local one
+
+(if there is some changes in the remote that is not reflected in the local one)
+
+git fetch
