@@ -1,0 +1,10 @@
+Remember that for the Mac the main working folder is always 'Home' as it is stated even by the command 'cd' itself
+when we type 'help cd':
+
+cd [-L|-P] [dir]
+    Change the current directory to DIR.  
+    The variable $HOME is the default DIR.  The variable CDPATH defines the search path for
+    the directory containing DIR.  Alternative directory names in CDPATH
+    are separated by a colon (:).......
+    
+    
