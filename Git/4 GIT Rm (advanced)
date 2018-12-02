@@ -1,0 +1,21 @@
+when you have to delete a file and if you don't want to delete manually the files from directory
+
+you could use 
+
+git rm file.txt 
+
+the good thing is that with this command apart of deleting the change it will be also staged so there will be 
+no necessary of 'git add..' (2 steps in 1 command)
+
+
+
+there is also 
+
+git rm --cached file.txt 
+
+
+
+and finally you can do the same for an entire folder
+
+git rm -r <folderpath>
+
