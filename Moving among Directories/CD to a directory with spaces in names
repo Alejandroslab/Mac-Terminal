@@ -16,6 +16,15 @@ So after the first word put immediately '\' then a 'space' and finally the secon
 
 Be careful
 
+#another alternative is the following:
+
+You can do that 'interactively':
+You can use the Tab key after pressing the first few characters 
+(this will then "fill in" the rest of the folder for you e.g. 
+
+type cd ~/LTab fills in cd ~/Library/ then type ApTab (for completing with 'Application Support' 
+
+and it will fill in the rest for you.
 
     
     
