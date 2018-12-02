@@ -10,7 +10,7 @@ git add
 
 Now there are different ways to add the files, we just want all to be passed to the next phase therefore we use
 
-git add -A
+git add -A (or alternatively git add --all)
 
 that mean that all the files will be 'tracked
 
