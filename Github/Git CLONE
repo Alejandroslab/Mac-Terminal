@@ -1,0 +1,9 @@
+TO clone a repository in the Home folder (default working folder) just use:
+
+git clone ...
+
+and paste the code that you will get in the github repository for https or ssh.
+
+Press enter and put 'Yes'
+
+Your repository will be copied from Remote Server and will be pasted in your Local Home Folder.
