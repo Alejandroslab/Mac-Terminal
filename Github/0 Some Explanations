@@ -1,0 +1,18 @@
+After doing the SSH connection, that will allow you to avoid to insert everytime the password in order to PUSH to the remote server,
+you can just do git INIT if you want to initialize a new folder that is in your working folder
+or you can just do git CLONE if you want to copy a remote repository in your working folder.
+
+Remember that you work in your working directory
+
+then you can check for example
+you make a change in a file, create a new file, delete a file, move a fie, etc with the command git STATUS
+
+So after that 
+
+files move from the working folder to the staging phase (with git ADD command) 
+and finally to the local repository (with git COMMIT command)
+
+so here is a scheme:
+
+Working Folder -----------------> Staging  -------------------->  Local Repository
+                (with git ADD)              (with git COMMIT)
