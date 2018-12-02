@@ -1,0 +1,13 @@
+If you want to "uncommit" your changes 
+
+then just type
+
+git reset HEAD~
+
+and files will come back to the 'working folder side'
+in order to commit again these files you will have to 
+
+git add ..
+
+then git commit -m "Message"
+
