@@ -1,4 +1,20 @@
-In order to change directory 
+In order to change directory from one directory to another that is called like 'GIT Repositories'
+
+we should take in account the space between the words 'GIT' and 'Repositories'
+as if we just type
+
+
+cd ~/Users/HomeFolder/GIT Repositories/
+
+we will get 'No such file or directory'
+
+the correct way to do that is:
+
+cd ~/GIT\ Repositories
+
+So after the first word put immediately '\' then a 'space' and finally the second word that compose the name of the folder
+
+Be careful
 
 
     
