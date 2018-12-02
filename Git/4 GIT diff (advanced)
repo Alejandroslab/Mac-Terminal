@@ -1,0 +1,15 @@
+in order to see differences of the same file that has been modified
+
+git diff file.txt
+
+you will see the difference between the file previous the edit and after the edit in detail.
+
+This will work ONLY in the working folder (or also called working copy). 
+
+It will not work if the files are already in staging phase.
+
+If files are in staging we have to use:
+
+git diff --cached file.txt
+
+
