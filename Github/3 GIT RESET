@@ -1,0 +1,9 @@
+Obviously we could untrack files that we have tracked before with 'git add -A'
+
+we can do this with:
+
+git reset 
+
+so if you run 'git status'
+
+you will see that everything is as before 'git add -A'
