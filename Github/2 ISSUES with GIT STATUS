@@ -1,0 +1,19 @@
+in case something goes wrong in your local repository just run these commands:
+
+rm -rf .git
+rm -rf .git*
+
+In order to delete any reference to git
+So if you now run git status it will print that there are not local repositories
+
+
+you can see with this if .git hidden folder is gone
+ls -lah
+
+
+
+
+So now you can start from scratch!
+
+Remember before pushing make a backup of your files!
+
