@@ -1,0 +1,32 @@
+#First type
+
+ssh-keygen -t rsa -b 4096 -C "myemail@email.com"
+
+When it asks for 'file in which to save the key' just press enter
+Then it asks for a passphrase (if you want to create one). You can skip it just pressing enter again (it will be asked twice)
+
+#Second type:
+
+eval $(ssh-agent -s)
+
+it will ask for the passphrase previously set and it will print something like:
+
+'Agent pid  0029'
+
+#Third,:
+
+ssh-add ~/.ssh/id_rsa
+
+again it will ask for the passphrase previously set. then will print
+
+'Identity added : ~/.ssh/id_rsa/ etc....'
+
+#Finally you could go to your working (Home) folder enter in the folder .ssh (that is hidden) and open the file 
+id_rsa.pub
+
+Copy the code inside the file.
+
+Go to github->settings> SSH and GPG Keys-> click on New SSH Key-> put a title and paste the code of the id_rsa.pub
+
+click on add and you are done!
+
