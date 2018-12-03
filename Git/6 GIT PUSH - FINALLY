@@ -1,0 +1,10 @@
+Ok!
+
+Now we are ready to sync ALL the changes of our Local Repository with our Remote Repository
+So all the changes that have been made in the local repository will be copied and pasted in the remote repository.
+
+Just type 
+
+git push
+
+(Remember that you should have been previously successfully activated the SSH connection)
