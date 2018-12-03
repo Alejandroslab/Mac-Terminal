@@ -1,0 +1,7 @@
+Similar to the git fetch
+
+but in this case the changes will sync between the remote repository and the working copy directly
+So the files in the working folder will be changed
+
+therefore if you have opened the text editor for example to edit a txt files 
+it will be asked to close it
