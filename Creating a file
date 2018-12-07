@@ -2,3 +2,20 @@ when you are in the desired folder just type:
 
 touch file.txt
 
+___________
+
+with this:
+
+ouch Prova\1.bib
+
+you will get the file:
+
+Prova1.bib
+
+with this one:
+
+touch Prova\ 1.bib
+
+you will get:
+
+Prova 1.bib
