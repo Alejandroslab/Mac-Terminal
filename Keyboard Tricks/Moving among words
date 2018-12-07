@@ -2,9 +2,10 @@ Some basics:
 
 Ctrl + a – go to the start of the command line
 Ctrl + e – go to the end of the command line
+Ctrl + u – delete from cursor to the start of the command line
+
 
 Ctrl + k – delete from cursor to the end of the command line
-Ctrl + u – delete from cursor to the start of the command line
 Ctrl + w – delete from cursor to start of word (i.e. delete backwards one word)
 Ctrl + y – paste word or text that was cut using one of the deletion shortcuts (such as the one above) after the cursor
 Ctrl + xx – move between start of command line and current cursor position (and back again)
