@@ -4,7 +4,26 @@ to do that in Mac you need brew package manager
 
 you can install it googling to the official page
 
-Second import the public key of the author with
+then install gnupg with
+
+brew install gnupg
+
+Now import the public key of the author download the .asc file from the webpage
+or you can just copy and paste the code and create a new file with
+.asc extension
+
+Remember to copy also the name of the file you want to verify and rename the .asc file with that.
+
+
+To import
+
+gpg --import nameofthefile.asc
+
+you can also drag and drop the file .asc to the terminal
+
+
+
+other ways to import
 
 gpg --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290
 another example
@@ -15,17 +34,39 @@ gpg --recv-key 4E777CA3
 
 where 0x4E2C6E8793298290 is the public key of the author.
 
-After that if you don't have .asc file (or .sig file) just create one coping and pasting the signature of the file
-you want to verify on a text editor.
 
-Then save the file as .asc (not .txt)
+to list now all the keys type
 
-Remember to copy also the name of the file you want to verify and rename the .asc file with that.
+gpg --list-keys
+
+
+
+
 
 Then for verification just:
 
 gpg --verify (drag .asc file or drag .sig file if you have it(file provided by the authors)) (drag .dmg file to be verified or other file like .iso to be verified)
 
+
+
+
+
+
 or in case of linux mint
 
 gpg --verify sha256sum.txt.gpg(file provided by authors) sha256sum.txt (file to be verified) (just drag and drop)
+
+
+Now if it appears 'Good signature..'
+
+you are done ! you know that that key is public signed by whom has
+told you so
+
+But now it appears the message:
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+
+this means that you have to sign the signature that means in a sense, that you
+have to 'approve' the signature.
+that WARNING is perfectly ok at least until you
+don't approve the signature as 'trusted'
