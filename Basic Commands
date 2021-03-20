@@ -1,3 +1,7 @@
 Stop terminal process
 
 control + c
+
+to clear the terminal just type:
+
+clear
