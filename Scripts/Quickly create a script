@@ -1,0 +1,13 @@
+Just use vi
+
+vi my_file.in
+
+the extension of the script could be '.in' or '.sh'
+
+save and exit
+
+then run with 'sh' command
+
+sh my_file.in
+
+DONE!
