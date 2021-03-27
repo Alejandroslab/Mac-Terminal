@@ -1,0 +1,24 @@
+You can alternatively check with openssl
+we will do this with tutanota mail, a popular and encrypted
+e-mail service
+
+first download the public key
+
+curl https://raw.githubusercontent.com/tutao/tutanota/master/tutao-pub.pem > tutao-pub.pem
+
+then get the signatures
+
+https://mail.tutanota.com/desktop/mac-sig-dmg.bin (for Mac .dmg installer)
+
+then run this command to verify the authenticity
+
+openssl dgst -sha512 -verify tutao-pub.pem -signature mac-signature.bin tutanota.dmg
+
+remember that the public key, the signature and the .dmg
+installer must be all in the the same working
+folder (that is often Home)
+or you can just drag in the terminal the files
+
+it is in other words:
+
+openssl dgst -sha512 -verify publickeyfile -signature signatures.bin installer.dmg
