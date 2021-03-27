@@ -1,0 +1,21 @@
+when you want to exit
+the teerminal you just type:
+
+exit
+
+Anyways, it will not close the terminal window
+
+to close it
+in terminal select:
+Preferences > Profiles > (Select a Profile) > shell
+
+
+
+on 'When the shell exits' choose
+ 'Close the window'
+
+ now the next time the terminal will
+ automatically close
+
+ (you have to select the same Profile
+ you set up like 'Homebrew' or others)
