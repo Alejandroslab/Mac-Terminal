@@ -1,0 +1,6 @@
+To unlock files you can use:
+chflags -R nouchg /PATH/TO/DIRECTORY/WITH/LOCKED/FILES/
+	• chflags = change flags on files/folders such as "locked"
+	• -R = recursive or for everything and follow directories within the specified directory
+	• nouchg = means the file can be changed
+/PATH/ = of course is the path to the files you want to change. Something like: ~/Sites/mysite/directory/with/locked/files/ works as well.
