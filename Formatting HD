@@ -1,6 +1,19 @@
+In Disk Utility in all devices click on
+
+'Show all devices'
+
+then select the device
+
+you can then format like exfat select MBR (master boot record)
+REMEMBER! if you select GUID instead of MBR windows will not correctly read the
+device size
+
+
+
+
 If you have problems formatting with disk utility use the following:
 
-first to get the name to the disk you're trying to format 
+first to get the name to the disk you're trying to format
 
 diskutil list
 
