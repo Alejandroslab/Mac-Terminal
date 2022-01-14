@@ -5,7 +5,8 @@ checbox and choose your hotkey combination.
 
 Go to Preferences → Profiles → Window tab and set
 Style to Full-Width Top of Screen and Screen to Screen with Cursor.
-
+(REMEMBER also to set 'Space' to 'All Spaces' in order to be able to recall
+the terminal in any desktop you are (otherwise it will switch back to the desktop in which you have opened iterm for the last time))
 
 Good idea is also to exclude iTerm2 from the Dock and application switcher [⌘+Tab].
 
