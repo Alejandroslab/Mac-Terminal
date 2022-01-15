@@ -1,0 +1,21 @@
+It works like in Linux
+
+Download the .tar file
+
+Then extract it with:
+
+tar xvzf PACKAGENAME.tar.gz
+
+The open it:
+
+cd PACKAGENAME
+
+To install the tarball run:
+
+
+./configure
+
+Then:
+
+make
+sudo make install
