@@ -1,0 +1,44 @@
+Since Catalina the new shell is 'zsh' and not bash anymore
+
+Therefore to customise the terminal you can download a manager that is called 'oh-my-zsh'
+
+This will allow you to install themes that will change your zsh shell
+
+You can search it online
+Here is the last code to install it:
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+This manager will install the themes alongside with some other tools and utilities (like 'spectrum_ls' that will allow you to choose more colors )
+
+oh-my-zsh stores these themes in the ~/.oh-my-zsh/themes folder.
+If you ls ~/.oh-my-zsh/themes you will see a list of predefined themes
+
+The manager will be able to recognise also your customised themes that are located on:
+~/.oh-my-zsh/custom/themes
+
+Just create a file inside this folder called:
+
+mytheme.zsh-theme
+
+.zsh-theme is the extension that will allow the manager to recognise it as a zsh theme.
+
+The manager will inspect that folder so you do not need to do anything else
+
+You will need just to configure your file and then edith the '.zshrc' file indicating the name of the theme:
+
+nano ~/.zshrc
+
+look for:
+
+ZSH_THEME="themename"
+
+and set it with the name of the theme file that you have created
+
+ZSH_THEME="myname"
+
+Finally refresh the profile running:
+
+ ~/.zshrc
+
+ And done!

@@ -1,0 +1,21 @@
+If you want more colors you can also change the line :
+
+
+PROMPT='%{$fg[green]%}%~%{$fg_bold[blue]%}$(git_prompt_info)%{$reset_color%} '
+
+with some code colors instead of the word (like '118' instead of green)
+
+to know all the possible colors, after having install oh-my-zsh run:
+
+spectrum_ls
+
+This command will list all the colors available with their code
+
+Then you change this:
+$fg[green]
+
+with this:
+
+$FG[118]
+
+And done 

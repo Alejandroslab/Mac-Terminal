@@ -1,0 +1,33 @@
+Inside the mytheme file you can customise the shell
+
+Here is an example:
+
+Copy and paste this:
+
+___
+#copy from here inside the theme file
+
+PROMPT='%{$fg[green]%}%~%{$fg_bold[blue]%}$(git_prompt_info)%{$reset_color%} '
+
+ZSH_THEME_GIT_PROMPT_PREFIX="("
+ZSH_THEME_GIT_PROMPT_SUFFIX=")"
+ZSH_THEME_GIT_PROMPT_DIRTY=" ✗"
+ZSH_THEME_GIT_PROMPT_CLEAN=" ✔"
+
+#last line to copy
+
+_____
+
+now the real line that will customise the shell is the first one
+all the command after 'PROMPT= '
+
+Try to change the part on the right of the "= ":
+
+PROMPT='%{$fg[green]%}%~%{$fg_bold[blue]%}$(git_prompt_info)%{$reset_color%} '
+
+This 'PROMPT' line is the same as 'PS1' in bash. In zsh it has been changed to 'PROMPT'
+
+Remember that you can add spaces, text and even emoji!
+
+You can also see some colors like 'green', 'blue' etc
+you can change with 'red' , 'yellow' etc

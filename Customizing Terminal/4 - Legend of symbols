@@ -1,0 +1,39 @@
+Inside the line:
+
+PROMPT='%{$fg[green]%}%n~%{$fg_bold[blue]%}$(git_prompt_info)%{$reset_color%} '
+
+You can see also some symbols with % and a letter
+
+
+Here is a legend:
+
+________
+%M: This shows the machine's hostname.
+
+%m: Same as the previous. Hostname is printed up to the first dot (.) separator. It takes an optional integer after % for the number of components to be displayed.
+
+%n: this will show the username
+
+This will have the same effect as printing environment variable $USERNAME.
+
+%d or %/: This shows the current directory. Works just as printing the $PWD environment variable.
+
+%~: Same as the previous, but if the current directory is $HOME, ~ is displayed instead.
+
+%c or %.: This lists the amount of directories trailing $PWD. It takes an integer as the parameter after %. Thus, %2c would show the two preceding directories to $PWD.
+
+%C: Same as the previous, but directory names are not replaced with any symbols.
+
+%D: This prints the current system date in the yy-mm-dd format.
+
+%W: Same as the previous but in mm/dd/yy format.
+
+%w: This shows the date in day-dd format.
+
+%T: This displays the current time of the day, 24-hour format.
+
+%t or %@: Same as the previous, uses a 12-hour, am/pm format.
+
+%*: Same as the previous, also displays seconds.
+______
+You can have fun and mix these elements as you desire 
