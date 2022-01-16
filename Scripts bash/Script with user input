@@ -1,9 +1,0 @@
-to just ask the user the e.g. the full name:
-
-read -p "Enter full name: " fullname
-
-
-to display the variable 'fullname'
-
-
-echo $fullname

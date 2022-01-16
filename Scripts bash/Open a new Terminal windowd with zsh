@@ -1,7 +1,0 @@
-open -n -a Terminal
-
-The order of the options is really important
-
-Of course you can abbreviate with:
-
-open -na Terminal
