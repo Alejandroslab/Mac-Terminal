@@ -1,3 +1,11 @@
 iTerm is way better than the Terminal itself
 
 It is fully customisable
+
+
+You can set the colors of the terminal text inside:
+Settings < Profiles < Colors
+'Foreground' is the color of the text
+'Background' is the color of the window terminal
+
+For the prompt you must change the system setting with PROMPT or PS1 accordingly

@@ -37,8 +37,12 @@ and set it with the name of the theme file that you have created
 
 ZSH_THEME="myname"
 
-Finally refresh the profile running:
+Finally refresh the profile running (remmeber the point before the command!);
 
- ~/.zshrc
+. ~/.zshrc
+
+or
+
+exec zsh
 
  And done!
