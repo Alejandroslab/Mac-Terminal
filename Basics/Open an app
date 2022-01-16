@@ -1,0 +1,9 @@
+just use commnad
+
+open -a Spotify
+
+You can also open a new instance if the app is already open just with:
+
+open -n -a Spotify
+
+Remember that the order of the options is important 
