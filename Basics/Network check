@@ -1,0 +1,6 @@
+As in linux you have
+ifconfig
+
+You can just list the setting of a particular interface like 'en0'
+
+ifconfig en0
