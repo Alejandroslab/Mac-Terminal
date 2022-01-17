@@ -1,0 +1,23 @@
+In Mac remember that you have zsh as shell and not bash anymore
+
+If you have installed the oh my zsh package when you enter in the configuration file that is:
+
+~/.zshrc
+
+You will see in the Alias corresponding section that if you have installed the oh my zsh package you should insert your aliases inside the custom folder
+
+Therefore, following the suggestion we will do so!
+
+    Go to the folder $ cd ~/.oh-my-zsh/custom
+    Create a new .zsh file. You can name it what ever you’d like, but for testing, I created aliases.zsh
+
+
+    Add you new aliases to your new file. You can do this by opening the file with your preferred text editor:
+
+    Here's a possible file:
+
+#An alias to naviage up one directory level
+alias up='cd ..'
+alias x="exit"
+
+You can also ovverride in this way existing commands.. 
