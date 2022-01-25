@@ -1,0 +1,26 @@
+After you create your sh script (like a QEMU vm)
+Click right and 'Get Info'
+
+In 'Open With' set 'Terminal'
+
+Then close it
+
+Now you can rename your sh file in .app file. You can also change the name.
+
+after that if you wish you can set an icon for you script (see the instructions)
+
+Now drag it to the dock.
+
+You can also drag without having to change the extension to .app
+but this will allow you to only add it to the right side of the dock (the side of the folders) and not anywhere
+
+After dragging it in your dock
+
+Go to your folder and change back the extension to .sh as otherwise the system will not recognize it as an app
+
+
+AND done!
+Now if you click on the dock icon Terminal will run with your script (check how to close it automatically after the script terminates)
+
+
+(This has worked for a QEMU script that launches a VM )
