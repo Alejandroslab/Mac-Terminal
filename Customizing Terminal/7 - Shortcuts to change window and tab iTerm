@@ -1,0 +1,13 @@
+You can set your shortcuts in preferences
+
+In particular to move between windows you have to look for Navigation Shortcuts
+
+Remember that shortcuts can be Global but also defined in your Profile
+
+If you try to override a shortcut in your profile section
+you will be warned
+
+Anyways to move between split panes select a shortcut under
+Preferences>Keys>Navigation Shortcuts>Shortcut to choose a split pane
+
+done 
