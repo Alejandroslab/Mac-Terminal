@@ -1,0 +1,4 @@
+You can run this in Terminal or in the 'Run Shell Script'
+inside Automator 
+
+osascript -e 'tell app "System Events" to display dialog "Hello World"'
