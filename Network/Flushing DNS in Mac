@@ -1,1 +1,6 @@
 Mac OSX 10.5 and newer versions: dscacheutil -flushcache
+
+sudo dscacheutil -flushcache
+
+and then 
+sudo killall -HUP mDNSResponder
