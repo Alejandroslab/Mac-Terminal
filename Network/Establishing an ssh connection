@@ -1,0 +1,10 @@
+To enable SSH connection first you need to check the 'Remote Login' option inside the Sharing panel
+in your System Preferences
+
+and then you are done
+
+just fire up this:
+
+ssh mymacuser@mymacbook_hostname
+
+and done 
