@@ -6,7 +6,15 @@ you can install it googling to the official page
 
 then install gnupg with
 
+
+
 brew install gnupg
+
+If you have some troubles (like xcrun missing )
+proceed to installed xcode utils:
+
+xcode-select --install
+
 
 Now import the public key of the author download the .asc file from the webpage
 or you can just copy and paste the code and create a new file with
