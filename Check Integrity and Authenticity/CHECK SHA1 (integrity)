@@ -16,10 +16,15 @@ to 224, 256, 384, or 512. Also, though SHA1 is becoming more common than MD5, yo
 
 to use sha256 check:
 
-shasum (drag and drop file here) -a 256
+shasum  -a 256 (drag and drop file here)
 
+to check an .iso.sha256 just:
 
+cat myprogram.iso.sha256
 
+and compare with the result that you get from
+
+shasum  -a 256 myprogram.iso
 ------
 
 Or you can use also:
