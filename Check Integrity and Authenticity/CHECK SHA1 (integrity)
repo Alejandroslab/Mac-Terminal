@@ -18,13 +18,22 @@ to use sha256 check:
 
 shasum  -a 256 (drag and drop file here)
 
+
+When you download a program you will always get a checksum file
+This extra file contains the reference checksum calculated over the server's file, and that is the exact same value that we should obtain in our computer from the downloaded copy.
+
 to check an .iso.sha256 just:
 
 cat myprogram.iso.sha256
 
-and compare with the result that you get from
+and compare with the result that you get from the program you downloaded with:
 
 shasum  -a 256 myprogram.iso
+
+
+The above process is what we need to do for the software we download manually, from the web.
+
+Package Managers for GNU/Linux, as apt, pacman or yum among others, for Windows as Chocolatey, and for macOS as homebrew, should do all the avobe automatically, transparently and by default. Check the documentation of the system and package manager you use (and trust) to check specific details.
 ------
 
 Or you can use also:
