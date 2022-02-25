@@ -1,0 +1,5 @@
+brew list 
+
+or 
+
+brew list --cask
