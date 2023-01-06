@@ -1,0 +1,21 @@
+check in your mc the version of python with
+
+python 
+
+then ensure to use pip
+with 
+
+
+sudo python -m ensurepip --default-pip
+
+you must use sudo and provide the password
+
+then:
+
+sudo python -m pip install mypackage
+
+where 'mypackage' can be any module like 'wakeonlan'
+
+you can also select a specific version with:
+
+python -m pip install SomePackage==1.0.4    
