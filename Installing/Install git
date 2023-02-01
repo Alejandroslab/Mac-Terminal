@@ -1,0 +1,7 @@
+to install git on mac 
+just run
+
+git --version 
+
+
+if it is not installed developer tools will be installed 
